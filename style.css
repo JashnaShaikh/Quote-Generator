@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background:url(Essential-Books.jpg);
+    
+}
+.container{
+    width: 500px;
+    height: 500px;
+}
+.header{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(1, 1, 14);
+    border: 1px solid white;
+    padding: 5px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    
+}
+.mainContent{
+    width: 100%;
+    height: 350px;
+    background-color: #f9f0f0;
+    border-radius: 10px;
+    padding: 50px 40px;
+}
+.mainContent .textArea{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.mainContent .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.buttonArea button{
+    background-color: rgb(1, 1, 14);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+
+}
+.buttonArea button:active{
+    background-color: rgb(45, 78, 79);
+}
